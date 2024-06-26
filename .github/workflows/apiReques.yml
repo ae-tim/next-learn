@@ -6,8 +6,8 @@ on:
 jobs:
   api_request_job:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Make API Request
       run: 
-        echo "test"
+        curl "google.com"
